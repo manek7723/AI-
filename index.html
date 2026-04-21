@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="top-nav">
+      <div class="container nav-inner">
+        <a href="#top" class="brand">Madhvi Enterprise</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#legacy">Legacy</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#timeline">Projects</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
     <header class="hero slide" id="top">
       <div class="hero-bg" aria-hidden="true">
         <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
@@ -21,14 +35,46 @@
         </svg>
       </div>
       <div class="container hero-content">
-        <p class="eyebrow">Madhvi Enterprise</p>
-        <h1>Four decades of mining execution, industrial scale, and trusted delivery.</h1>
-        <p class="lead">Mining · Logistics · Export Trade · Regulatory Coordination · Infrastructure</p>
-        <a class="btn" href="#timeline">View Profile Timeline</a>
+        <div class="hero-copy">
+          <p class="eyebrow">Madhvi Enterprise</p>
+          <h1>Four decades of mining execution, industrial scale, and trusted delivery.</h1>
+          <p class="lead">Mining · Logistics · Export Trade · Regulatory Coordination · Infrastructure</p>
+          <a class="btn" href="#timeline">View Profile Timeline</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="scene-ground"></div>
+          <div class="ore-pile"></div>
+          <div class="truck">
+            <span class="truck-cabin"></span>
+            <span class="truck-bed"></span>
+            <span class="wheel w1"></span>
+            <span class="wheel w2"></span>
+          </div>
+          <div class="excavator">
+            <span class="body"></span>
+            <span class="arm-base"></span>
+            <span class="arm-mid"></span>
+            <span class="arm-tip"></span>
+            <span class="bucket"></span>
+            <span class="wheel e1"></span>
+            <span class="wheel e2"></span>
+          </div>
+          <div class="ore-flow"></div>
+        </div>
       </div>
     </header>
 
     <main>
+      <section class="slide about" id="about">
+        <div class="container split about-split">
+          <div>
+            <p class="eyebrow">About Us</p>
+            <h2>Operational depth across mining, logistics, trade, and regulatory execution.</h2>
+          </div>
+          <p class="statement">Madhvi Enterprise has built long-term credibility through consistent performance in industrial mining environments, institutional assignments, export-linked movement, and complex execution responsibilities.</p>
+        </div>
+      </section>
+
       <section class="slide legacy" id="legacy">
         <div class="container split">
           <div>
@@ -173,6 +219,22 @@
             <li>Regulatory Work</li>
             <li>Transactions</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="slide placeholder products" id="products">
+        <div class="container">
+          <p class="eyebrow">Products</p>
+          <h2>Structured product portfolio details will be published in the next profile edition.</h2>
+          <p>Current operations continue to focus on disciplined mining execution, bulk movement, and reliable supply commitments.</p>
+        </div>
+      </section>
+
+      <section class="slide placeholder contact" id="contact">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h2>Direct engagement window for institutional and industrial counterparties.</h2>
+          <p>For strategic discussions, commercial coordination, and profile-based opportunities, reach Madhvi Enterprise through official company channels.</p>
         </div>
       </section>
 
